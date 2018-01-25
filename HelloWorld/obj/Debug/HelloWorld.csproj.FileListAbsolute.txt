@@ -5,3 +5,10 @@ C:\Users\cxu\Documents\my code\Jenkinsfile\HelloWorld\HelloWorld\obj\Debug\Hello
 C:\Users\cxu\Documents\my code\Jenkinsfile\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
 C:\Users\cxu\Documents\my code\Jenkinsfile\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
 C:\Users\cxu\Documents\my code\Jenkinsfile\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+C:\Users\cxu\Documents\CI\Chandler\my code\Jenkinsfile\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\cxu\Documents\CI\Chandler\my code\Jenkinsfile\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\cxu\Documents\CI\Chandler\my code\Jenkinsfile\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\cxu\Documents\CI\Chandler\my code\Jenkinsfile\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+C:\Users\cxu\Documents\CI\Chandler\my code\Jenkinsfile\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\cxu\Documents\CI\Chandler\my code\Jenkinsfile\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\cxu\Documents\CI\Chandler\my code\Jenkinsfile\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
