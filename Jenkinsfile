@@ -13,7 +13,7 @@ node('master') {
 
         stage('Backend Test'){
             // Use Xunit.Runner.Console to excute unit test files and generate report in xml format
-            powershell 'XUnit_Test_Runner.ps1 -"C:\\Users\\cxu\\.jenkins\\workspace\\Pipeline Backend Test\\" -"C:\\Users\\cxu\\.jenkins\\workspace\\Pipeline Backend Test\\TestReport\\" -"{0}\\report_{1}.xml" -"C:\\Users\\cxu\\.jenkins\\workspace\\Pipeline Backend Test\\packages\\xunit.runner.console.2.3.1\\tools\\net452"'
+            powershell 'XUnit_Test_Runner.ps1'
 
             // Use Xunit Plugin to read report
             step([$class: 'XUnitPublisher', testTimeMargin: '3000', thresholdMode: 1, thresholds: [[$class: 'FailedThreshold', failureNewThreshold: '5', failureThreshold: '20', unstableNewThreshold: '5', unstableThreshold: '10'], [$class: 'SkippedThreshold', failureNewThreshold: '5', failureThreshold: '20', unstableNewThreshold: '5', unstableThreshold: '10']], tools: [[$class: 'XUnitDotNetTestType', deleteOutputFiles: true, failIfNotNew: true, pattern: 'TestReport\\*.xml', skipNoTestFiles: true, stopProcessingIfError: true]]])
