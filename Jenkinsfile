@@ -21,6 +21,10 @@ node('master') {
         stage('Archive'){
             archiveArtifacts "HelloWorld/bin/Release/**/*"
         }
+
+        mail body: 'project build successful', 
+                        subject: 'pipeline test email: successful', 
+                        to: 'cxu@acr.org'
     }
     catch(error){
         mail body: "project build error is here: ${env.BUILD_URL}", 
@@ -29,8 +33,6 @@ node('master') {
         throw error
     }
     finally{
-        mail body: 'project build successful', 
-                        subject: 'pipeline test email: successful', 
-                        to: 'cxu@acr.org'
+        
     }
 }
